@@ -5,11 +5,13 @@ data:extend
   {
     type = "recipe",
     name = "test-item",
-    ingredients = {    {
+    ingredients =
+    {
       {type = "item", name = "iron-plate", amount = 2},
-      {type = "item", name = "copper-plate", amount = 3},
-    }},
+      {type = "item", name = "copper-plate", amount = 3}
+    },
     results = {{type="item", name="test-item", amount=1}},
+    enabled = false,
     allow_productivity = true
   }
 })
